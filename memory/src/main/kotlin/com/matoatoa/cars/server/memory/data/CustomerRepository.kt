@@ -22,5 +22,3 @@ class CustomerRepository {
 
     fun deleteAll() = just(data.clear())
 }
-
-data class Customer(val id: Int = -1, val firstName: String = "", val lastName: String = "", val address: String = "")
